@@ -4,17 +4,17 @@ class Program
 {
     static void Main(string[] args)
     {
-        Assignment aa = new Assignment("Favio Callejas", "Multiplication and Division");
-        Console.WriteLine(aa.GetSummary());
+        Assignment a1 = new Assignment("Favio Callejas", "Multiplication and Division");
+        Console.WriteLine(a1.GetSummary());
         Console.WriteLine();
 
-        MathAssignment bb = new MathAssignment("Favio Callejas", "Addition and subtraction", "9.1", "9-21");
-        Console.WriteLine(bb.GetSummary());
-        Console.WriteLine(bb.GetHomeworkList());
+        MathAssignment b1 = new MathAssignment("Favio Callejas", "Addition and subtraction", "9.1", "9-21");
+        Console.WriteLine(b1.GetSummary());
+        Console.WriteLine(b1.GetHomeworkList());
         Console.WriteLine();
 
-        WritingAssignment cc = new WritingAssignment("Favio Callejas", "History of Bolivia", "Presidents of Bolivia");
-        Console.WriteLine(cc.GetSummary());
-        Console.WriteLine(cc.GetWritingInformation());
+        WritingAssignment c1 = new WritingAssignment("Favio Callejas", "History of Bolivia", "Presidents of Bolivia");
+        Console.WriteLine(c1.GetSummary());
+        Console.WriteLine(c1.GetWritingInformation());
     }
 }
